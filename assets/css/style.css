@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 20%;
+}
+
+#slogan {
+    width: 60%; 
+}
+
+#logo > p,a {
+    color: red;
+    font-size: large;
+}
+
+
+#slogan p {
+    color: rgba(48, 15, 167, 0.747);
+    text-align: center;
+    font-size: 35px;
+    /* margin: 20px; */
+}
+
+#slogan .ll {
+    font-size: 32px ;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 30px;
+    color:rgba(228, 13, 13, 0.753);
+}
+
+.container{
+    max-width: 850px;
+    height: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background-color: #ccc;
+}
+
+.infor-left{
+    float:left;
+    width:40%;
+    height: 850px;
+    background-color:rgb(61, 134, 230);
+}
+
+.infor-right {
+    float:right;
+    width: 60%;
+    background-color: #ccc;
+}
+
+.container li{
+    list-style-type: none;
+    font-style: italic;
+    padding:10px 20px;
+    font-size: 17px;
+} 
+
+.infor-left-header {
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.container h3{
+    margin-top:30px;
+    font-size: 27px;
+}
+
+.container h3 i {
+    margin-right: 15px;
+    background-color:rgba(71, 245, 56, 0.815);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.infor-left-header img {
+    margin:30px;
+    width:180px;
+    border-radius: 30px;
+}
+
+.infor-left-content ul i {
+    font-size: 15px;
+    padding-right: 10px ;
+}
+
+.infor-left-content,.infor-right {
+    padding: 20px 40px 20px 20px;
+}
+
+.infor-right .target {
+    line-height: 35px;
+    text-align: justify;
+}
+
+.clear {
+    clear: both;
+}
